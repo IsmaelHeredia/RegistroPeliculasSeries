@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEditarPelicula));
             this.gbDatos = new Telerik.WinControls.UI.RadGroupBox();
             this.dtpFechaVista = new Telerik.WinControls.UI.RadDateTimePicker();
             this.cbEstado = new Telerik.WinControls.UI.RadCheckBox();
@@ -150,6 +151,7 @@
             this.Controls.Add(this.gbDatos);
             this.Controls.Add(this.btnGuardar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "FormEditarPelicula";
             // 

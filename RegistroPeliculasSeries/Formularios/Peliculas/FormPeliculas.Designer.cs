@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn6 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 0", "ID");
-            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn7 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 1", "Nombre");
-            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn8 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 2", "Comentario");
-            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn9 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 3", "Estado");
-            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn10 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 4", "Fecha visto");
+            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn1 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 0", "ID");
+            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn2 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 1", "Nombre");
+            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn3 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 2", "Comentario");
+            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn4 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 3", "Estado");
+            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn5 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 4", "Fecha visto");
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPeliculas));
             this.gbPeliculas = new Telerik.WinControls.UI.RadGroupBox();
             this.lvPeliculas = new Telerik.WinControls.UI.RadListView();
             this.txtNombre = new Telerik.WinControls.UI.RadTextBox();
@@ -61,31 +62,31 @@
             this.gbPeliculas.HeaderText = "Películas";
             this.gbPeliculas.Location = new System.Drawing.Point(12, 12);
             this.gbPeliculas.Name = "gbPeliculas";
-            this.gbPeliculas.Size = new System.Drawing.Size(433, 287);
+            this.gbPeliculas.Size = new System.Drawing.Size(596, 287);
             this.gbPeliculas.TabIndex = 0;
             this.gbPeliculas.Text = "Películas";
             this.gbPeliculas.ThemeName = "TelerikMetro";
             // 
             // lvPeliculas
             // 
-            listViewDetailColumn6.HeaderText = "ID";
-            listViewDetailColumn6.Visible = false;
-            listViewDetailColumn7.HeaderText = "Nombre";
-            listViewDetailColumn8.HeaderText = "Comentario";
-            listViewDetailColumn9.HeaderText = "Estado";
-            listViewDetailColumn10.HeaderText = "Fecha visto";
+            listViewDetailColumn1.HeaderText = "ID";
+            listViewDetailColumn1.Visible = false;
+            listViewDetailColumn2.HeaderText = "Nombre";
+            listViewDetailColumn3.HeaderText = "Comentario";
+            listViewDetailColumn4.HeaderText = "Estado";
+            listViewDetailColumn5.HeaderText = "Fecha visto";
             this.lvPeliculas.Columns.AddRange(new Telerik.WinControls.UI.ListViewDetailColumn[] {
-            listViewDetailColumn6,
-            listViewDetailColumn7,
-            listViewDetailColumn8,
-            listViewDetailColumn9,
-            listViewDetailColumn10});
+            listViewDetailColumn1,
+            listViewDetailColumn2,
+            listViewDetailColumn3,
+            listViewDetailColumn4,
+            listViewDetailColumn5});
             this.lvPeliculas.EnableColumnSort = true;
             this.lvPeliculas.EnableSorting = true;
             this.lvPeliculas.ItemSpacing = -1;
             this.lvPeliculas.Location = new System.Drawing.Point(19, 74);
             this.lvPeliculas.Name = "lvPeliculas";
-            this.lvPeliculas.Size = new System.Drawing.Size(394, 191);
+            this.lvPeliculas.Size = new System.Drawing.Size(557, 191);
             this.lvPeliculas.TabIndex = 2;
             this.lvPeliculas.Text = "lvPeliculas";
             this.lvPeliculas.ThemeName = "TelerikMetro";
@@ -96,7 +97,7 @@
             // 
             this.txtNombre.Location = new System.Drawing.Point(94, 34);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(319, 24);
+            this.txtNombre.Size = new System.Drawing.Size(259, 24);
             this.txtNombre.TabIndex = 1;
             this.txtNombre.ThemeName = "TelerikMetro";
             this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
@@ -114,7 +115,7 @@
             // 
             this.btnAgregar.Location = new System.Drawing.Point(12, 318);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(155, 24);
+            this.btnAgregar.Size = new System.Drawing.Size(207, 24);
             this.btnAgregar.TabIndex = 1;
             this.btnAgregar.Text = "Agregar nueva película";
             this.btnAgregar.ThemeName = "TelerikMetro";
@@ -147,10 +148,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(457, 359);
+            this.ClientSize = new System.Drawing.Size(620, 359);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.gbPeliculas);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "FormPeliculas";
             // 

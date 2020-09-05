@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEditarSerie));
             this.gbDatos = new Telerik.WinControls.UI.RadGroupBox();
             this.txtUltimoCapituloVisto = new Telerik.WinControls.UI.RadTextBox();
             this.lblUltimoCapituloVisto = new Telerik.WinControls.UI.RadLabel();
@@ -196,6 +197,7 @@
             this.Controls.Add(this.gbDatos);
             this.Controls.Add(this.btnGuardar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "FormEditarSerie";
             // 

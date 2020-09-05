@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormHome));
             this.telerikMetroTheme = new Telerik.WinControls.Themes.TelerikMetroTheme();
             this.lblTipo = new Telerik.WinControls.UI.RadLabel();
             this.btnPeliculas = new Telerik.WinControls.UI.RadButton();
@@ -87,6 +88,7 @@
             this.Controls.Add(this.btnPeliculas);
             this.Controls.Add(this.lblTipo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "FormHome";
             // 

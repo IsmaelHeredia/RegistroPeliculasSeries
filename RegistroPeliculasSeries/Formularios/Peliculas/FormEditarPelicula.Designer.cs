@@ -87,7 +87,7 @@
             this.cbEstado.Name = "cbEstado";
             this.cbEstado.Size = new System.Drawing.Size(145, 19);
             this.cbEstado.TabIndex = 6;
-            this.cbEstado.Text = "La pelicula ya fue vista";
+            this.cbEstado.Text = "La película ya fue vista";
             this.cbEstado.ThemeName = "TelerikMetro";
             // 
             // txtComentario

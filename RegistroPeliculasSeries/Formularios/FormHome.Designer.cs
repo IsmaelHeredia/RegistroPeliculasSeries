@@ -95,7 +95,7 @@
             // 
             // 
             this.RootElement.ApplyShapeToControl = true;
-            this.Text = "Registro de peliculas y series 1.0";
+            this.Text = "Registro de películas y series 1.0";
             this.ThemeName = "TelerikMetro";
             this.Load += new System.EventHandler(this.FormHome_Load);
             ((System.ComponentModel.ISupportInitialize)(this.lblTipo)).EndInit();

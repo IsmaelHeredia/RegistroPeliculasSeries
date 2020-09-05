@@ -69,7 +69,7 @@ namespace RegistroPeliculasSeries.Formularios.Peliculas
                     item.SubItems.Add(fecha_vista);
                     lvPeliculas.Items.Add(item);
                 }
-                gbPeliculas.Text = "Peliculas : " + lvPeliculas.Items.Count + " encontradas";
+                gbPeliculas.Text = "Películas : " + lvPeliculas.Items.Count + " encontradas";
             }
         }
 
